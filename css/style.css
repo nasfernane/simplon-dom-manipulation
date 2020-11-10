@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#exercicesBoard {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article h3 {
+  text-decoration: underline;
+}
+
+#variablesExercices,
+#functionsExercices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 4rem;
+}
+
+#variablesExercices .exercice,
+#functionsExercices .exercice {
+  min-width: 80%;
+  max-width: 80%;
+  margin-top: 2rem;
+  border: 1px solid darkgrey;
+  border-radius: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.exercice div.exempleFonction {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.exercice input {
+  width: 5rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.exercice div.exempleFonction button {
+  margin-right: 1rem;
+}
+
+.exercice .codeDisplay {
+  align-self: flex-end;
+  border-radius: 8px;
+}
+
+aside {
+  height: 100vh;
+  width: 50%;
+}
+.screenBoard {
+  position: fixed;
+  width: 45%;
+  height: 65%;
+  margin-top: 7%;
+  background: url(../img/green_board.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenBoard p {
+  z-index: 99;
+  width: 80%;
+  height: 60%;
+  margin: 20%;
+  line-height: 40px;
+  text-align: left;
+  position: relative;
+  font-size: 1.3rem;
+  color: white;
+  margin: 0 auto;
+}

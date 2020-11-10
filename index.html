@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<article id="exercicesBoard">
+    <h1>Javascript Basic Challenges</h1>
+    <section id="variablesExercices">
+
+        <div class="exercice">
+            <h3>Exercice #1</h3>
+            <p>Déclarer deux variables avec comme valeur 4 et 5 <br/>
+            Créer une autre variable contenant l'addition des deux et l'afficher.</p>
+            <button class="codeDisplay" onclick="exerciceOne()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #2</h3>
+            <p>Afficher la chaîne de caractères suivante en majuscule :<br/>
+            <span class="varInit">let</span> team = 'avengers';</p>
+            <button class="codeDisplay" onclick="exerciceTwo()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #3</h3>
+            <p>Afficher la première lettre de la chaîne de caractère suivante :<br/>
+            let team = 'avengers';</p>
+            <button class="codeDisplay" onclick="exerciceThree()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #4</h3>
+            <p>Afficher la chaîne de caractère suivante excepté la première lettre :<br/>
+            let team = 'avengers';</p>
+            <button class="codeDisplay" onclick="exerciceFour()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #5</h3>
+            <p>Afficher les deux chaînes suivantes dans une seule chaîne de caractère (concaténation):<br/>
+            let firstName = 'Tony';<br/>
+            let lastName = 'Stark';</p>
+            <button class="codeDisplay" onclick="exerciceFive()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #6</h3>
+            <p>Afficher la chaîne de caractère avec seulement la première lettre en majuscule.<br/>
+            let team = 'aveNgers';</p>
+            <button class="codeDisplay" onclick="exercice6()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #7</h3>
+            <p>Déclarer un tableau avec 5 villes <br/>
+            Afficher la ville à l'indice 3<br/>
+            Ajouter une ville au tableau<br/>
+            Supprimer la ville à l'indice 2</p>
+            <button class="codeDisplay" onclick="exercice7()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #8</h3>
+            <p>Comme tu le sais sans doute, pour parcourir un tableau, il faut boucler sur ce tableau.<br/>
+            Parcours le tableau suivant afin de monter chaque élément au carré et affiche le tableau.<br/>
+            const array1 = [2, 4, 8];</p>
+            <button class="codeDisplay" onclick="exercice8()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #9</h3>
+            <p>Le tableau suivant indique les notes d'une promo lointaine !<br/>
+            Calculer la moyenne de cette promo et afficher le résultat<br/>
+            const promo = [12, 13, 17, 3, 14, 18];</p>
+            <button class="codeDisplay" onclick="exercice9()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #10</h3>
+            <p>Déclarer une variable "age" avec la valeur de votre choix. <br/>
+                En utilisant les conditions 'if' et 'else' affichez :<br/>
+                peut voter si 'age' est supérieur ou égal à 18<br/>
+                ne peut pas voter si 'age' est inférieur à 18</p>
+            <button class="codeDisplay" onclick="exercice10()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #11</h3>
+            <p>Afficher la date d'aujourd'hui avec javascript.<br/>
+            En utilisant les conditions 'if' et 'else' affichez : "bonjour" si il est entre 5h du matin et 17h et "bonsoir" s'il est entre 17h et 5h du matin</p>
+            <button class="codeDisplay" onclick="exercice11()">Afficher code</button>
+        </div>
+
+    </section>
+
+    <section id="functionsExercices">
+        <h2>Fonctions</h2>
+        <div class="exercice">
+            <h3>Exercice #12</h3>
+            <p>Créer deux variables initialisées à 3 et 4. <br/>
+            Créer une fonction qui retourne l'addition de ces deux valeurs.<br/>
+            const add = (num1, num2) => {<br/>
+            <br/>
+            }
+                </p>
+            <button class="codeDisplay" onclick="exercice12()">Afficher code</button>
+            
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #13</h3>
+            <p>Créer une fonction qui prend en paramètre la valeur i. La fonction doit retourner la valeur i au carré et l'afficher. <br/>
+            const square = (number) => {<br/><br/>
+            }
+                </p>
+            <button class="codeDisplay" onclick="exercice13()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #14</h3>
+            <p>En utilisant la méthode 'map', mettre la chaîne de caractère en majuscule. <br/>
+            const beatles = ["paul", "john", "ringo", "george"];</p>
+            <button class="codeDisplay" onclick="exercice14()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #15</h3>
+            <p>Créez un tableau nommé tab dont le premier élément est 2, le deuxième 3 et le troisième 4.<br/>
+            Créez une fonction qui renvoit la somme des éléments du tableau.
+            </p>
+            <button class="codeDisplay" onclick="exercice15()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #16</h3>
+            <p>Créer une fonction qui renvoie la somme de chaque éléments du tableau si celui-ci est positif. <br/>
+            const array2 = [-2, 4, -5, 3, 6];<br/>
+            const addPositiveNumber = (tableau) => {<br/><br/>
+            }</p>
+            <button class="codeDisplay" onclick="exercice16()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #17</h3>
+            <p>Créez une fonction qui prend un parametre 'r' et qui renvoie le périmetre d'un cercle.<br/>
+            const perimetreCercle = (r) => {<br/><br/>
+            };</p>
+            <div class="exempleFonction">
+                <input type="text" name="parameter" id="valeurRayon">
+                <button onclick="perimeter()">Calculer</button>
+                <p id="perimeter"></p>
+            </div>
+            <button class="codeDisplay" class="codeDisplay" onclick="exercice17()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #18</h3>
+            <p>Créez une fonction qui met la premiere lettre d'un mot en majuscule.<br/>
+            Le reste du mot doit être en minuscule.<br/>
+            Le mot est "SimPloN"<br/>
+            const capitalize = (word) => {<br/><br/>
+            };</p>
+            <div class="exempleFonction">
+                <input type="text" name="parameter" id="messyWord">
+                <button onclick="capitalize()">Ajuster</button>
+                <p id="newWord"></p>
+            </div>
+            <button class="codeDisplay" onclick="exercice18()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #19</h3>
+            <p>Odd or Even<br/>
+            Créez un fonction qui prend un nombre en parametre et qui renvoie : "pair" si le nombre est pair ou "impair" si le nombre est impair. <br/>
+            Tips : jetez un coup d'oeil à l'opérateur '%' dans la doc.</p>
+            <button class="codeDisplay" onclick="exercice19()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #20</h3>
+            <p>Mot inversé<br/>
+            Créez une fonction qui prend en paramètre une chaine de caractère.<br/>
+            Cette fonction renvoie la chaine de caractère inversée.<br/>
+            ex: reverseWord('simplon') ==> 'nolpmis'<br/>
+            Aide : join(), split(), reverse()<br/>
+            const reverseWord = (word) => {<br/><br/>
+            };
+                </p>
+            <button class="codeDisplay" onclick="exercice20()">Afficher code</button>
+        </div>
+
+        <div class="exercice">
+            <h3>Exercice #21</h3>
+            <p>Reprendre la fonction qui permet de calculer la somme d'un tableau<br/>
+            Le tableau est le suivant : <br/>
+            Le tableau est le suivant : 
+            const nombres = ["3", "5", "6", "2"];</p>
+            <button class="codeDisplay" onclick="exercice21()">Afficher code</button>
+        </div>
+    </section> 
+</article>
+
+    <aside>
+        <!-- partie droite du site qui affiche le code -->
+        <div class="screenBoard">
+            <p id="output"></p>
+        </div>
+        <div>
+    </aside>
+    <script src="javascript/functions.js"></script>
+    <script src="javascript/greenboard.js"></script>
+</body>
+</html>
