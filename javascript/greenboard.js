@@ -43,6 +43,7 @@ function exercice6() {
 function exercice7() {
     document.getElementById("output").innerHTML = `
     const villes = ["Marseille", "Perpignan", "Lyon", "Strasbourg", "Nantes"];<br/>
+    // on affiche l'index 3 donc quatrième valeur du tableau<br/>
     console.log(villes[3]);<br/>
     villes.splice(1, 0, "Toulon");<br/>
     villes.splice(2, 1);<br/>
